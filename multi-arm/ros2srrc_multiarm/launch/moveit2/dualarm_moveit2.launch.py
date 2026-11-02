@@ -608,6 +608,8 @@ def generate_launch_description():
         name="rviz2_" + CONFIGURATION["ROB1_id"],
         output="log",
         arguments=["-d", TMP_RVIZ_PATH_1],
+        namespace=CONFIGURATION["ROB1_id"],
+        remappings=[("joint_states", "/joint_states")],
         parameters=[
             robot_description,
             robot_description_semantic_1,
@@ -617,7 +619,6 @@ def generate_launch_description():
             pilz_planning_pipeline_config,
             trajectory_execution,
             moveit_controllers_1,
-            planning_scene_monitor_parameters,
             move_group_capabilities,
             {"use_sim_time": True},
             {"move_group/planning_plugin": "pilz_industrial_motion_planner"},
@@ -632,6 +633,8 @@ def generate_launch_description():
         name="rviz2_" + CONFIGURATION["ROB2_id"],
         output="log",
         arguments=["-d", TMP_RVIZ_PATH_2],
+        namespace=CONFIGURATION["ROB2_id"],
+        remappings=[("joint_states", "/joint_states")],
         parameters=[
             robot_description,
             robot_description_semantic_2,
@@ -641,7 +644,6 @@ def generate_launch_description():
             pilz_planning_pipeline_config,
             trajectory_execution,
             moveit_controllers_2,
-            planning_scene_monitor_parameters,
             move_group_capabilities,
             {"use_sim_time": True},
             {"move_group/planning_plugin": "pilz_industrial_motion_planner"},

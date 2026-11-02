@@ -146,7 +146,7 @@ def _arm_group_from_robot(robot_name, prefix):
 
 def _patch_motion_planning_display(display, robot_name, prefix, namespace):
 
-    display["Move Group Namespace"] = namespace
+    display["Move Group Namespace"] = f"/{namespace}"
 
     planned_path = display.get("Planned Path", {})
     if isinstance(planned_path, dict):
