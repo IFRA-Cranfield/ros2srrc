@@ -28,7 +28,7 @@ This launches the ROS 2 driver for controlling a physical robot using the MoveIt
 ros2 launch ros2srrc_launch bringup.launch.py package:=<PACKAGE_NAME> config:=<CONFIG_NAME> robot_ip:=<ROBOT_IP>
 ```
 
-## EXAMPLES: Launch default ROS 2 Environments in ros2_SimRealRobotControl
+## EXAMPLES: Launch default ROS 2 Environments in ros2srrc
 
 ```sh
 # ABB IRB-120 Robot (simulation):
@@ -41,7 +41,7 @@ ros2 launch ros2srrc_launch moveit2.launch.py package:=ros2srrc_irb1200 config:=
 ros2 launch ros2srrc_launch bringup.launch.py package:=ros2srrc_ur3 config:=ur3_3 robot_ip:=0.0.0.0
 ```
 
-## Connecting to Real Robots in ros2_SimRealRobotControl
+## Connecting to Real Robots in ros2srrc
 
 (THIS SECTION WILL BE INCLUDED SOON)
 

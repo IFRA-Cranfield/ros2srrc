@@ -26,7 +26,7 @@
 
 # ======= CITE OUR WORK ======= #
 # You can cite our work with the following statement:
-# IFRA-Cranfield (2023) ROS 2 Sim-to-Real Robot Control. URL: https://github.com/IFRA-Cranfield/ros2_SimRealRobotControl.
+# IFRA-Cranfield (2023) ROS 2 Sim-to-Real Robot Control. URL: https://github.com/IFRA-Cranfield/ros2srrc.
 
 # moveit2.launch.py:
 # Launch file for a dual-arm GZ Sim / Gazebo Harmonic simulation + MoveIt!2 framework in ROS 2 Jazzy:
@@ -169,7 +169,7 @@ def GetEEctr(EEName):
 # CHECK if CONTROLLER file exists for EE:
 def EEctrlEXISTS(EEName):
 
-    PATH = os.path.join(os.path.expanduser('~'), 'dev_ws', 'src', 'ros2_SimRealRobotControl', 'ros2srrc_endeffectors', EEName, 'config')
+    PATH = os.path.join(os.path.expanduser('~'), 'dev_ws', 'src', 'ros2srrc', 'ros2srrc_endeffectors', EEName, 'config')
     YAML_PATH = PATH + "/controller.yaml"
 
     RES = os.path.exists(YAML_PATH)

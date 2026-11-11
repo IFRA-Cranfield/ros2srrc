@@ -2,7 +2,7 @@
 
 ## ros2srrc-moveit package
 
-Within ros2_SimRealRobotControl, the MoveIt!2 framework is responsible for kinematic control, motion planning, and collision detection of the robots.
+Within ros2srrc, the MoveIt!2 framework is responsible for kinematic control, motion planning, and collision detection of the robots.
 
 The ros2srrc_moveit package provides all the necessary configuration files required for integrating robots with MoveIt!2. It contains a single /config folder, which includes the following key elements:
 

@@ -26,7 +26,7 @@
 
 # ======= CITE OUR WORK ======= #
 # You can cite our work with the following statement:
-# IFRA-Cranfield (2026) ROS 2 Sim-to-Real Robot Control. URL: https://github.com/IFRA-Cranfield/ros2_SimRealRobotControl.
+# IFRA-Cranfield (2026) ROS 2 Sim-to-Real Robot Control. URL: https://github.com/IFRA-Cranfield/ros2srrc.
 
 # vacuumGripper.py
 # This CLIENT operates any vacuumGripper, by checking for any potential

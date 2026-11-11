@@ -36,7 +36,7 @@ __PC Set-Up for Robot Simulation and Control in ROS 2__
     sudo apt install ros-jazzy-moveit
     ```
 
-5. Modify the move_group_interface.h script: A small improvement of the move_group_interface.h file has been developed in order to execute the Robot/Gripper triggers in this repository. Both the upgraded file and the instructions of how to implement it can be found here: [move_group_interface_improved.h](https://github.com/IFRA-Cranfield/ros2_SimRealRobotControl/tree/jazzy/include)
+5. Modify the move_group_interface.h script: A small improvement of the move_group_interface.h file has been developed in order to execute the Robot/Gripper triggers in this repository. Both the upgraded file and the instructions of how to implement it can be found here: [move_group_interface_improved.h](https://github.com/IFRA-Cranfield/ros2srrc/tree/jazzy/include)
 
 6. Create and configure the ROS 2 Jazzy ~/dev_ws environment/workspace:
     - Follow instructions in: [ROS 2 Jazzy Tutorials - Create a ROS2 Workspace](https://docs.ros.org/en/jazzy/Tutorials/Beginner-Client-Libraries/Creating-A-Workspace/Creating-A-Workspace.html).
@@ -110,11 +110,11 @@ __Download and install the required ROS 2 Packages for the Simulation and Contro
     colcon build
     ```
 
-__Download and install ros2_SimRealRobotControl__
+__Download and install ros2srrc__
 
 ```sh
 cd ~/dev_ws/src
-git clone -b jazzy https://github.com/IFRA-Cranfield/ros2_SimRealRobotControl
+git clone -b jazzy https://github.com/IFRA-Cranfield/ros2srrc
 cd ~/dev_ws
 colcon build
 ```

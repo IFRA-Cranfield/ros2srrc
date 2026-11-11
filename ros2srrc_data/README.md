@@ -6,7 +6,7 @@ The ros2srrc_data package contains all different ROS 2 data structures that are 
 
 __ROS 2 .action__
 
-In ros2_SimRealRobotControl, individual Robot Movements are contained in a single ROS 2 Node (ROS 2 Action Server, move.cpp), and are executed by calling a single action, called, "Move".
+In ros2srrc, individual Robot Movements are contained in a single ROS 2 Node (ROS 2 Action Server, move.cpp), and are executed by calling a single action, called, "Move".
 
 Move.action:
 * Input: Action(string), Speed (float64), MoveJ (joints), MoveR (joint), MoveL (xyz), MoveXYZW (xyzypr), MoveXYZ (xyz), MoveYPR (ypr), MoveROT (ypr), MoveRP (xyzypr), MoveG (float64).

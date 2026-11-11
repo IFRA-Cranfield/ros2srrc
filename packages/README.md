@@ -2,7 +2,7 @@
 
 ## Robot Simulation & Control: Standard ROS 2 Packages for different Robot Manipulators
 
-The /packages folder contains standard ROS 2 packages for each robot arm included in ros2_SimRealRobotControl. These packages provide simple, raw simulation environments where a robot (and end-effector, if applicable) is placed on top of a basic robot stand.
+The /packages folder contains standard ROS 2 packages for each robot arm included in ros2srrc. These packages provide simple, raw simulation environments where a robot (and end-effector, if applicable) is placed on top of a basic robot stand.
 
 The main purpose of these packages is to serve as reference examples for building your own robot cells. By following this structure, you can quickly create a new ROS 2 package for any robot + end-effector combination by adding:
 
@@ -71,7 +71,7 @@ Features of this modular setup:
 
 This modular approach reduces complexity and makes the system highly maintainable, as different components (robot and end-effector) are managed independently but integrated seamlessly.
 
-## ROS 2 Packages available in IFRA-Cranfield/ros2_SimRealRobotControl
+## ROS 2 Packages available in IFRA-Cranfield/ros2srrc
 
 List of all available (standard) ROS 2 Packages and configurations:
 

@@ -49,13 +49,13 @@
 #                                                                                       #
 #  CHANGES MADE:                                                                        #
 #  Robot information/specifications have been taken, and the code has been modified and #
-#  re-organised in accordance with the ros2_SimRealRobotControl standards.              #
+#  re-organised in accordance with the ros2srrc standards.              #
 #                                                                                       #
 # ===================================== COPYRIGHT ===================================== #
 
 # ======= CITE OUR WORK ======= # 
 # You can cite our work with the following statement:
-# IFRA-Cranfield (2023) ROS 2 Sim-to-Real Robot Control. URL: https://github.com/IFRA-Cranfield/ros2_SimRealRobotControl.
+# IFRA-Cranfield (2023) ROS 2 Sim-to-Real Robot Control. URL: https://github.com/IFRA-Cranfield/ros2srrc.
 
 -->
 

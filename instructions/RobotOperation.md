@@ -12,7 +12,7 @@ __/Move ROS 2 Action__
 
 The /Move action allows you to execute various robot motion commands based on specific movement types and parameters such as speed, joint positions, Cartesian paths, and rotations.
 
-Robot Movements are executed from a single ROS 2 Node in ros2_SimRealRobotControl. A Robot Motion request consists of a simple ROS 2 Action (/Move) call, where the following parameters must be specified:
+Robot Movements are executed from a single ROS 2 Node in ros2srrc. A Robot Motion request consists of a simple ROS 2 Action (/Move) call, where the following parameters must be specified:
 - The ACTION that is going to be executed.
 - The speed at which the robot will execute the action.
 - The value of the action to be executed.
