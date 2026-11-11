@@ -28,7 +28,7 @@
 
 # ======= CITE OUR WORK ======= #
 # You can cite our work with the following statement:
-# IFRA (2023) ROS 2: Sim-to-Real Robot Control. URL: https://github.com/IFRA-Cranfield/ros2_SimRealRobotControl.
+# IFRA (2023) ROS 2: Sim-to-Real Robot Control. URL: https://github.com/IFRA-Cranfield/ros2srrc.
 
 -->
 
@@ -68,7 +68,7 @@
       <a href="#about">About</a>
       <ul>
         <li><a href="#intelligent-flexible-robotics-and-assembly-group">IFRA-Cranfield Research Group</a></li>
-        <li><a href="#ros2_simrealrobotcontrol-repository">ros2_SimRealRobotControl Repository</a></li>
+        <li><a href="#ros2srrc-repository">ros2srrc Repository</a></li>
       </ul>
     </li>
     <li>
@@ -112,9 +112,9 @@ Centre for Robotics and Assembly:
 - Website: https://www.cranfield.ac.uk/centres/centre-for-robotics-and-assembly
 
 
-### ros2_SimRealRobotControl Repository
+### ros2srrc Repository
 
-The IFRA-Cranfield/ros2_SimRealRobotControl GitHub repository is a comprehensive framework designed to facilitate seamless integration of robots into both simulated and real-world environments using ROS 2. It provides a modular setup that allows for the easy deployment of various robot configurations, along with their corresponding controllers and end-effectors, without needing to redefine core parameters. The repository is built to support multiple robots, such as the ABB IRB-120, by enabling the use of ROS 2 packages that handle simulation, control, and MoveIt!2 for robot motion planning.
+The IFRA-Cranfield/ros2srrc GitHub repository is a comprehensive framework designed to facilitate seamless integration of robots into both simulated and real-world environments using ROS 2. It provides a modular setup that allows for the easy deployment of various robot configurations, along with their corresponding controllers and end-effectors, without needing to redefine core parameters. The repository is built to support multiple robots, such as the ABB IRB-120, by enabling the use of ROS 2 packages that handle simulation, control, and MoveIt!2 for robot motion planning.
 
 This repository is ideal for robotics researchers and developers who want to streamline the process of setting up robot environments for simulation and real-world tasks. It supports both Gazebo-based simulation for testing robot setups and MoveIt!2 for controlling robots in either virtual or physical environments. By organizing key robot and end-effector parameters in a modular way, it offers a flexible approach that makes it easy to switch between different robots, configurations, or tasks, accelerating both development and testing processes in industrial automation, robotics research, and advanced manufacturing systems.
 
@@ -133,11 +133,11 @@ __VIDEO: Simulation and Control of a Universal Robots - UR3 using ROS 2__
 
 For detailed information on installation, usage, and requirements, please refer to the following documentation files available in this repository:
 
-- [Installation.md](https://github.com/IFRA-Cranfield/ros2_SimRealRobotControl/tree/humble/instructions/Installation.md): Instructions for setting up and installing the required dependencies.
-- [README.md](https://github.com/IFRA-Cranfield/ros2_SimRealRobotControl/tree/humble/packages) inside the /packages folder: Specific details about individual ROS 2 packages and their configurations.
-- [ROS 2EnvironmentLaunch.md](https://github.com/IFRA-Cranfield/ros2_SimRealRobotControl/tree/humble/instructions/ROS 2EnvironmentLaunch.md): Instructions for launching ROS 2 simulation and control environments.
-- [RobotOperation.md](https://github.com/IFRA-Cranfield/ros2_SimRealRobotControl/tree/humble/instructions/RobotOperation.md): Steps to operate robots in both simulated and real environments.
-- [ProgramExecution.md](https://github.com/IFRA-Cranfield/ros2_SimRealRobotControl/tree/humble/instructions/ProgramExecution.md): Guidelines for executing the programs in this repository.
+- [Installation.md](https://github.com/IFRA-Cranfield/ros2srrc/tree/humble/instructions/Installation.md): Instructions for setting up and installing the required dependencies.
+- [README.md](https://github.com/IFRA-Cranfield/ros2srrc/tree/humble/packages) inside the /packages folder: Specific details about individual ROS 2 packages and their configurations.
+- [ROS 2EnvironmentLaunch.md](https://github.com/IFRA-Cranfield/ros2srrc/tree/humble/instructions/ROS 2EnvironmentLaunch.md): Instructions for launching ROS 2 simulation and control environments.
+- [RobotOperation.md](https://github.com/IFRA-Cranfield/ros2srrc/tree/humble/instructions/RobotOperation.md): Steps to operate robots in both simulated and real environments.
+- [ProgramExecution.md](https://github.com/IFRA-Cranfield/ros2srrc/tree/humble/instructions/ProgramExecution.md): Guidelines for executing the programs in this repository.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -178,7 +178,7 @@ The following end-effectors are supported in ros2srrc:
 <!-- CONTRIBUTING -->
 ## Contributing
 
-This repo contains only a few number of robots, end-effectors and simulation environments (layouts). Please do let us know if you wish to include a specific robot/end-effector or application into ros2_SimRealRobotControl!
+This repo contains only a few number of robots, end-effectors and simulation environments (layouts). Please do let us know if you wish to include a specific robot/end-effector or application into ros2srrc!
 
 The exact same thing for the ROS 2 Robot Actions/Triggers: A few number of robot movements have been implemented, therefore please do let us know if you have any ideas of a potential Robot motions for our repo!
 
@@ -223,7 +223,7 @@ Don't forget to give the project a star! Thank you very much!
 <p>
   You can cite our work with the following statement:
   <br />
-  IFRA-Cranfield (2023) ROS 2 Sim-to-Real Robot Control. URL: https://github.com/IFRA-Cranfield/ros2_SimRealRobotControl.
+  IFRA-Cranfield (2023) ROS 2 Sim-to-Real Robot Control. URL: https://github.com/IFRA-Cranfield/ros2srrc.
 </p>
 
 <p align="right">(<a href="#top">back to top</a>)</p>

@@ -28,7 +28,7 @@
 
 # ======= CITE OUR WORK ======= #
 # You can cite our work with the following statement:
-# IFRA-Cranfield (2023) ROS 2 Sim-to-Real Robot Control. URL: https://github.com/IFRA-Cranfield/ros2_SimRealRobotControl.
+# IFRA-Cranfield (2023) ROS 2 Sim-to-Real Robot Control. URL: https://github.com/IFRA-Cranfield/ros2srrc.
 
 # test_RobMove.py -> This python script creates an instance of the RBT() class in ros2srrc_execution and executes the RobMove ROS 2 Action.
 

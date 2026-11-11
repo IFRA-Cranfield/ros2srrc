@@ -8,10 +8,10 @@ It also includes the __ros2srrc_ma_examples__ ROS 2 package, which contains exam
 
 ## Included Packages
 
-- [`ros2srrc_multiarm`](https://github.com/IFRA-Cranfield/ros2_SimRealRobotControl/tree/humble/multi-arm/ros2srrc_multiarm): multi-arm launch files and helper scripts.
-- [`ros2srrc_ma_examples`](https://github.com/IFRA-Cranfield/ros2_SimRealRobotControl/tree/humble/multi-arm/ros2srrc_ma_examples): example combined URDFs and configuration definitions.
+- [`ros2srrc_multiarm`](https://github.com/IFRA-Cranfield/ros2srrc/tree/humble/multi-arm/ros2srrc_multiarm): multi-arm launch files and helper scripts.
+- [`ros2srrc_ma_examples`](https://github.com/IFRA-Cranfield/ros2srrc/tree/humble/multi-arm/ros2srrc_ma_examples): example combined URDFs and configuration definitions.
 
-The currently available examples are defined in [`configurations.yaml`](https://github.com/IFRA-Cranfield/ros2_SimRealRobotControl/blob/humble/multi-arm/ros2srrc_ma_examples/config/configurations.yaml), and the combined URDFs are stored in [`urdf/`](https://github.com/IFRA-Cranfield/ros2_SimRealRobotControl/tree/humble/multi-arm/ros2srrc_ma_examples/urdf).
+The currently available examples are defined in [`configurations.yaml`](https://github.com/IFRA-Cranfield/ros2srrc/blob/humble/multi-arm/ros2srrc_ma_examples/config/configurations.yaml), and the combined URDFs are stored in [`urdf/`](https://github.com/IFRA-Cranfield/ros2srrc/tree/humble/multi-arm/ros2srrc_ma_examples/urdf).
 
 ## How It Works
 
