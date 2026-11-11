@@ -36,7 +36,7 @@ __PC Setup for Robot Simulation and Control in ROS 2__
     sudo apt install ros-humble-moveit
     ```
 
-5. Modify the move_group_interface.h script: A small improvement of the move_group_interface.h file has been developed in order to execute the Robot/Gripper triggers in this repository. Both the upgraded file and the instructions of how to implement it can be found here: [move_group_interface_improved.h](https://github.com/IFRA-Cranfield/ros2_SimRealRobotControl/tree/humble-gzfortress/include)
+5. Modify the move_group_interface.h script: A small improvement of the move_group_interface.h file has been developed in order to execute the Robot/Gripper triggers in this repository. Both the upgraded file and the instructions of how to implement it can be found here: [move_group_interface_improved.h](https://github.com/IFRA-Cranfield/ros2srrc/tree/humble-gzfortress/include)
 
 6. Create and configure the ROS 2 Humble ~/dev_ws environment/workspace:
     - Follow instructions in: [ROS 2 Humble Tutorials - Create a ROS 2 Workspace](https://docs.ros.org/en/humble/Tutorials/Beginner-Client-Libraries/Creating-A-Workspace/Creating-A-Workspace.html).
@@ -110,11 +110,11 @@ __Download and install the required ROS 2 packages for the simulation and contro
     colcon build
     ```
 
-__Download and install ros2_SimRealRobotControl__
+__Download and install ros2srrc__
 
 ```sh
 cd ~/dev_ws/src
-git clone -b humble-gzfortress https://github.com/IFRA-Cranfield/ros2_SimRealRobotControl
+git clone -b humble-gzfortress https://github.com/IFRA-Cranfield/ros2srrc
 cd ~/dev_ws
 colcon build
 ```
